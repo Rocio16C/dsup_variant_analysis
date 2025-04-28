@@ -27,7 +27,7 @@ Identificar mutaciones en el gen *Dsup* asociadas a resistencia a radiación en 
   - **IGV** (visualización).    
 
 ## 👀 Visualización  
-![IGV screenshot](results/igv_screenshot.png) 
+![IGV screenshot](results/analisis_variantes_Dsup.png) 
 
 ## 🔄 Flujo de Trabajo en Galaxy  
 ### Pasos Ejecutados  
@@ -53,16 +53,3 @@ dsup_variant_analysis/
 │ ├── filtered_variants.vcf
 │ └── igv_screenshot.png # Imagen de variantes en IGV
 └── README.md # Este archivo
-
-
-## 🚀 Cómo Reproducir el Análisis  
-1. **Descargar datos**:  
-   ```bash
-   wget https://ejemplo.com/datos_tardigrados.vcf
-   
-2. Filtrar variantes:
-   ```bashbash
-   bcftools view -i 'INFO/DP>10 & QUAL>1e-6' input.vcf > filtered.vcf
-
-4. Visualizar en IGV:
-Cargar filtered.vcf y el genoma de referencia.
