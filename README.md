@@ -43,3 +43,16 @@ Identificar mutaciones en el gen *Dsup* asociadas a resistencia a radiación en 
 ## Visualización del Pipeline  
 ![Screenshot del workflow en Galaxy](results/galaxy_workflow.png)
 
+## 🚀 Cómo Reproducir el Análisis  
+1. **Descargar genoma de referencia en formato FASTA de [*Ramazzottius varieornatus*](https://www.ncbi.nlm.nih.gov/datasets/taxonomy/947166/)**:  
+
+2. **Descargar el archivo 26: MarkDuplicates_mapeo_lecturas_vs_genoma.bam (y su índice .bai) desde [Historial en Galaxy](https://usegalaxy.org/u/rc_16/h/dsup-variant-analysis)** 
+
+3. **Obtener el archivo 1.variantes_análisis_FreeBayes.vcf desde la carpeta data del repositorio.**
+
+4. **Abre IGV y ve a la pestaña "Genomes" → "Load Genome from File y selecciona el archivo del genoma de referencia**
+
+5. **Ve a "File" → "Load from File, selecciona el archivo .bam (y .bai) descargado en el paso 2 y el archivo 1.variantes_análisis_FreeBayes.vcf.**
+
+6. **Cargar el archivo 2.selección_variantes_bcftoolsView.vcf (desde la carpeta data) en IGV para comparar con las variantes crudas.**
+
