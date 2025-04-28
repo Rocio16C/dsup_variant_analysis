@@ -10,7 +10,7 @@ Identificar mutaciones en el gen *Dsup* asociadas a resistencia a radiación en 
 1. **Variantes en exones de *Dsup***:  
    - **0 mutaciones** detectadas (gen altamente conservado).  
 2. **Variantes en intrones**:  
-   - **21 variantes totales** (distribuidas en dos intrones) → **0 tras filtrado** (baja cobertura/calidad).
+   - **3 variantes totales** (distribuidas en dos intrones) → **0 tras filtrado** (baja cobertura/calidad).
 3. **Posiciones Gen *Dsup***:
    - DGG01000015.1:336,949-336,995 (exón 1), BDGG01000015.1:337,421-337,873 (exón 2), DGG01000015.1:337,927-338,774 (exón 3). 
 4. **Conclusión**:
