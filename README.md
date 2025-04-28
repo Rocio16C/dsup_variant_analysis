@@ -6,7 +6,7 @@
 ## Objetivo  
 Identificar mutaciones en el gen *Dsup* asociadas a resistencia a radiación en el tardígrado *Ramazzottius varieornatus*, aplicando filtros de calidad (DP > 10, QUAL > 1e-6).  
 
-## Resultados Clave  
+## 🌟 Resultados Clave  
 1. **Variantes en exones de *Dsup***:  
    - **0 mutaciones** detectadas (gen altamente conservado).  
 2. **Variantes en intrones**:  
@@ -25,11 +25,11 @@ Identificar mutaciones en el gen *Dsup* asociadas a resistencia a radiación en 
   - **IGV** (visualización).  
 - **Lenguajes**: Bash   
 
-## Visualización  
+## 👀 Visualización  
 ![IGV screenshot](results/igv_screenshot.png) 
 
-# 🔄 Flujo de Trabajo en Galaxy  
-## Pasos Ejecutados  
+## 🔄 Flujo de Trabajo en Galaxy  
+### Pasos Ejecutados  
 1. **Control de Calidad**:  
    - FASTQC → Trimmomatic.  
 2. **Mapeo**:  
