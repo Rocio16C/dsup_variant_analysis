@@ -43,13 +43,3 @@ Identificar mutaciones en el gen *Dsup* asociadas a resistencia a radiación en 
 ## Visualización del Pipeline  
 ![Screenshot del workflow en Galaxy](results/galaxy_workflow.png)
 
-
-## 📂 Estructura del Repositorio  
-dsup_variant_analysis/
-├── data/ # Datos originales (ejemplo: metadata_samples.txt)
-├── scripts/ # Código y comandos usados
-│ └── filter_variants.sh # Script para filtrar VCF
-├── results/ # Resultados clave
-│ ├── filtered_variants.vcf
-│ └── igv_screenshot.png # Imagen de variantes en IGV
-└── README.md # Este archivo
