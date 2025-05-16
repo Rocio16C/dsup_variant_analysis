@@ -56,3 +56,8 @@ Identificar mutaciones en el gen *Dsup* asociadas a resistencia a radiación en 
 
 6. **Cargar el archivo 2.selección_variantes_bcftoolsView.vcf (desde la carpeta data) en IGV para comparar con las variantes crudas.**
 
+## 
+##
+**Curso "Herramientas Bioinformáticas" [Udemy](https://www.udemy.com/course/herramientas-bioinfomaticas/?couponCode=CP130525)**
+
+
